@@ -12,14 +12,14 @@
  */
 int main(void)
 {
-ssize_t ret;
+    ssize_t ret;
 
-ret = write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-if (ret == -1)
-{
-perror("write");
-return (1);
-}
+    ret = write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+    if (ret == -1)
+    {
+        perror("write");
+        return 1;
+    }
 
-return (1);
+    return 1;
 }
