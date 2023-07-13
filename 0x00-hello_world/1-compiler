@@ -1,2 +1,2 @@
-#!/bin /bash
-CFILE="0-main.c"; OBJECT_FILE="0-main.o"; gcc -c "$CFILE" -o "$OBJECT_FILE"
+#!/bin/bash
+CFILE="1-main.c"; OBJECT_FILE="1-main.o"; gcc -c "$CFILE" -o "$OBJECT_FILE"
