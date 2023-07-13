@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE="2-main.c"; ASSEMBLY_FILE="2-main.s"; gcc -S "$CFILE" -o "$ASSEMBLY_FILE"
