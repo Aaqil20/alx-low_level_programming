@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-int main() {
+/**
+ *
+ * Description: Prints "_putchar"
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void) 
+{
     putchar('_');
     putchar('p');
     putchar('u');
