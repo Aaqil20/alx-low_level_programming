@@ -3,11 +3,11 @@
 
 /**
   * free_dog - ...
-  * @d: ...
+  * @*a: ...
   *
   * Return: ...
   */
-void free_dog(dog_t *d)
+void free_dog(dog_t *a)
 {
 	if (d != NULL)
 	{
